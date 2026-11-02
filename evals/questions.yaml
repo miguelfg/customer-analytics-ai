@@ -1,0 +1,22 @@
+[
+  {"question": "Which high-LTV customers are likely to churn and what offer would you send?",
+   "expected_tools": ["top_at_risk", "render_chart"]},
+  {"question": "How healthy is our data pipeline?",
+   "expected_tools": ["pipeline_status"]},
+  {"question": "What share of customers are Champions?",
+   "expected_tools": ["list_segments"]},
+  {"question": "Which segment loses us the most money if they churn? Show me a chart.",
+   "expected_tools": ["list_segments", "render_chart"]},
+  {"question": "How much better is the churn model than just ranking customers by recency?",
+   "expected_tools": ["run_query", "render_chart"]},
+  {"question": "Give me a profile of customer 14646 and whether we should contact them.",
+   "expected_tools": ["get_customer"]},
+  {"question": "Which At Risk customers should the retention team call first this week?",
+   "expected_tools": ["top_at_risk", "render_chart"]},
+  {"question": "How is predicted 90-day LTV distributed across our customer base?",
+   "expected_tools": ["render_chart"]},
+  {"question": "Which countries hold the most value at risk?",
+   "expected_tools": ["run_query"]},
+  {"question": "How many rows did the cleaning step drop, and why?",
+   "expected_tools": ["pipeline_status", "render_chart"]}
+]

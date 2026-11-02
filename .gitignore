@@ -1,0 +1,8 @@
+models/
+.env
+# data/ is rebuilt from source: `make data pipeline`
+data/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
