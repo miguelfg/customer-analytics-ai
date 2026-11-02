@@ -211,6 +211,8 @@ There are two ways to query the same commands:
 
 2. **Claude SDK agent** in `src/customer_analytics/agent.py`, run with `ca ask "<question>"`. It needs `ANTHROPIC_API_KEY` (see `.env.example`); the model comes from `CA_MODEL`, default `claude-sonnet-5-5`. `ca ask --eval` runs the 10-question set in `evals/questions.yaml`.
 
+See [OpenCode example 1](assets/opencode-example-1.md) for a recorded skill-driven retention-priority answer and the charts it used.
+
 Example questions the skill and agent are meant to answer:
 
 - "Which high-LTV customers are likely to churn, and what offer would you send?" → `at-risk` + `chart top-at-risk`
