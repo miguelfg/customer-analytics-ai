@@ -18,8 +18,8 @@ section.part-product { background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8e 1
 section.part-evidence { background: linear-gradient(135deg, #064e3b 0%, #047857 100%); }
 section.part-trust { background: linear-gradient(135deg, #3d1e5c 0%, #5a2d8e 100%); }
 .columns { display: flex; gap: 28px; align-items: center; }
-.columns > * { flex: 1; }
-.visual { max-height: 430px; display: block; margin: auto; }
+.columns > * { flex: 1; min-width: 0; }
+.visual { max-width: 100%; max-height: 430px; width: 100%; display: block; margin: auto; }
 .shot { max-height: 440px; display: block; margin: auto; }
 .small { font-size: 17px; color: #64748b; }
 </style>

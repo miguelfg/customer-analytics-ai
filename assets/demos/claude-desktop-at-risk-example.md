@@ -6,4 +6,4 @@ The recording shows the project-local `customer-analytics` skill guiding Claude 
 
 This is deliberate: the example demonstrates evidence-based analysis, including when a requested segment is empty, rather than inventing a result.
 
-[Watch the 44-second recording](claude-desktop-at-risk-example.mp4)
+The previous short cut was retired because it skipped the prompt, planning and command-execution stages. A revised recording is in progress.
