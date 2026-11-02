@@ -219,9 +219,9 @@ The previous short cut has been retired while a revised recording is prepared. S
 
 ### Recruiter slideshow
 
-[![Preview the CLI and agent examples slideshow](assets/demos/recruiter-slideshow-preview.png)](showcase/cli-agent-examples/customer-analytics-ai-cli.html)
+[![Preview the CLI and agent examples slideshow](assets/demos/recruiter-slideshow-preview.png)](https://miguelfg.github.io/customer-analytics-ai/)
 
-[Open the HTML slideshow](showcase/cli-agent-examples/customer-analytics-ai-cli.html) or [download the PowerPoint deck](showcase/cli-agent-examples/customer-analytics-ai-cli.pptx). It covers the CLI, both agent examples, their evidence screenshots and the charts they produced.
+[Open the HTML slideshow](https://miguelfg.github.io/customer-analytics-ai/) or [download the PowerPoint deck](showcase/cli-agent-examples/customer-analytics-ai-cli.pptx). It covers the CLI, both agent examples, their evidence screenshots and the charts they produced.
 
 Example questions the skill and agent are meant to answer:
 
