@@ -2,6 +2,8 @@
 
 An end-to-end data science and AI application for identifying churn risk, ranking customer value and supporting retention decisions on open retail data: an end-to-end pipeline (load → clean → features → behavioural features → tuning → churn → LTV → segments → scores → charts) stored step by step in DuckDB, driven by a JSON-emitting CLI, with an AI skill and a Claude SDK agent on top of the same commands.
 
+See [TODO.md](TODO.md) for the next hands-on harness test and business/recruiter presentation steps.
+
 ## Pipeline
 
 ```mermaid
@@ -205,13 +207,7 @@ Champions are a quarter of customers and about 71% of total monetary value (11.6
 
 There are two ways to query the same commands:
 
-1. **Claude Code skill** in `skills/customer-analytics/SKILL.md`. Install it with:
-
-   ```bash
-   ln -s "$(pwd)/skills/customer-analytics" ~/.claude/skills/
-   ```
-
-   The skill maps business questions to `ca ... --json` commands, then answers with a decision, key numbers, chart paths and caveats.
+1. **Agent skill** in `skills/customer-analytics/SKILL.md`. The checkout exposes it through `.claude/skills`, `.codex/skills`, `.opencode/skills` and `.agents/skills`, so Claude Code, Codex and OpenCode can discover it without a global install. The skill maps business questions to `ca ... --json` commands, then answers with a decision, key numbers, chart paths and caveats. Pi does not have a documented project-local skill directory; start it with `Read skills/customer-analytics/SKILL.md and follow it for this session.`
 
 2. **Claude SDK agent** in `src/customer_analytics/agent.py`, run with `ca ask "<question>"`. It needs `ANTHROPIC_API_KEY` (see `.env.example`); the model comes from `CA_MODEL`, default `claude-sonnet-5-5`. `ca ask --eval` runs the 10-question set in `evals/questions.yaml`.
 
