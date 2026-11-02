@@ -1,0 +1,25 @@
+title: Customer Analytics AI
+subtitle: Evidence-backed retention decisions from one reproducible CLI
+card_cmd: uv run ca --help
+slides:
+  - type: cover
+  - type: exec
+    comment: Check pipeline health
+    cmd: ["uv run ca --json status"]
+  - type: pause
+    duration: 1
+  - type: text
+    label: EVIDENCE
+    title: Model-ready customer data
+    body: "Features, tuning, churn, LTV, segmentation and scoring remain inspectable in DuckDB"
+  - type: exec
+    step: Make a retention decision
+    runs:
+      - {comment: "Inspect segment exposure", cmd: ["uv run ca --json segments"]}
+      - {comment: "Review model evidence", cmd: ["uv run ca --json model-report"]}
+  - type: exec
+    comment: Render value at risk
+    cmd: ["uv run ca --json chart churn-risk-by-segment"]
+  - type: close
+    title: Customer Analytics AI
+    body: ["github.com/miguelfg/customer-analytics-ai", "Reproducible analytics - agent-ready evidence"]

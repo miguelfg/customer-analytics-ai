@@ -219,6 +219,10 @@ See [OpenCode example 1](assets/opencode-example-1.md) for a recorded skill-driv
 
 This 41-second recording shows the project-local skill answering a retention question from real CLI data. The hard at-risk filter is empty in this snapshot, so the agent says so and ranks the most relevant customers by value at risk instead. See the [example notes](assets/demos/claude-desktop-at-risk-example.md) for the decision boundary and evidence.
 
+### Recruiter slideshow
+
+[Open the HTML slideshow](showcase/cli-agent-examples/customer-analytics-ai-cli.html) or [download the PowerPoint deck](showcase/cli-agent-examples/customer-analytics-ai-cli.pptx). It covers the CLI, both agent examples, their evidence screenshots and the charts they produced.
+
 Example questions the skill and agent are meant to answer:
 
 - "Which high-LTV customers are likely to churn, and what offer would you send?" → `at-risk` + `chart top-at-risk`

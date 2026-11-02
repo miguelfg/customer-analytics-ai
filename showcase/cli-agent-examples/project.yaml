@@ -1,0 +1,7 @@
+name: customer-analytics-ai
+dir: ../..
+setup: source .venv/bin/activate
+engine: vhs
+pace: 0
+live_note: Every command in this video was run live against the local demo database.
+orientations: [horizontal]

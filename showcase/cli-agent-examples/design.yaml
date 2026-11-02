@@ -1,0 +1,18 @@
+colors:
+  ink: "#0F172A"
+  accent: "#2563EB"
+  cmd: "#38BDF8"
+  text: "#F8FAFC"
+  muted: "#94A3B8"
+  step: "#FBBF24"
+vhs_theme: Catppuccin Mocha
+step_header:
+  mode: card
+  color: step
+  marker: "▌"
+  label: STEP
+  card_duration: 1.4
+slides:
+  text: {duration: 3}
+  pause: {duration: 1}
+  close: {duration: 3.5}
