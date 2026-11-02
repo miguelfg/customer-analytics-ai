@@ -213,6 +213,12 @@ There are two ways to query the same commands:
 
 See [OpenCode example 1](assets/opencode-example-1.md) for a recorded skill-driven retention-priority answer and the charts it used.
 
+### Recorded Claude Desktop example
+
+[![Watch the Claude Desktop customer-prioritisation example](assets/demos/claude-desktop-at-risk-example-poster.png)](assets/demos/claude-desktop-at-risk-example.mp4)
+
+This 41-second recording shows the project-local skill answering a retention question from real CLI data. The hard at-risk filter is empty in this snapshot, so the agent says so and ranks the most relevant customers by value at risk instead. See the [example notes](assets/demos/claude-desktop-at-risk-example.md) for the decision boundary and evidence.
+
 Example questions the skill and agent are meant to answer:
 
 - "Which high-LTV customers are likely to churn, and what offer would you send?" → `at-risk` + `chart top-at-risk`
